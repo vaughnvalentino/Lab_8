@@ -167,7 +167,9 @@ int main()
     window.draw(gameOverText);
     window.display();
     while (true);
-        if (Keyboard::isKeyPressed(Keyboard::Space)) {
-        exit(0);
+    
+    while (arrows <= 0); 
+        if (Keyboard::isKeyPressed(Keyboard::Space)) { 
+            exit(0); 
         }
 }
